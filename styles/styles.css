@@ -37,6 +37,7 @@ h1 {
   padding: 0 11px;
   transition: 0.2s;
 }
+
 .navbar-link:hover {
   font-weight: bold;
 }
@@ -61,16 +62,38 @@ h1 {
 .personal-img {
   border-radius: 50%;
 }
-.list-techno{
-   list-style-type: none;
-   padding: 0;
+
+.list-techno {
+  list-style-type: none;
+  padding: 0;
 }
-.contact-me{
+
+.contact-me {
   padding-top: 131px;
 }
-.contact-me-p{
+
+.contact-me-p {
   margin: 0 0 10px 0;
 }
+
+.preview-img {
+  height: 80px;
+}
+
+.project-info {
+  /* padding: 30px 0; */
+}
+
+.project-link {
+  color: var(--dark);
+  cursor: pointer;
+  text-decoration: none;
+}
+.project-link:hover {
+  font-weight: bold;
+}
+
+
 /* Media queries*/
 @media (min-width: 800px) {
   .section-half {
@@ -86,6 +109,10 @@ h1 {
   .color-swap-toDark {
     background-color: var(--dark);
     color: var(--light)
+  }
+
+  .project-link {
+    color: var(--light);
   }
 }
 
