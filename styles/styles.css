@@ -62,6 +62,13 @@ h1 {
 .personal-img {
   border-radius: 50%;
 }
+.github-link{
+  color: var(--dark);
+  text-decoration: none;
+}
+.github-link:hover {
+  font-weight: bold;
+}
 
 .list-techno {
   list-style-type: none;
@@ -80,13 +87,8 @@ h1 {
   height: 80px;
 }
 
-.project-info {
-  /* padding: 30px 0; */
-}
-
 .project-link {
   color: var(--dark);
-  cursor: pointer;
   text-decoration: none;
 }
 .project-link:hover {
