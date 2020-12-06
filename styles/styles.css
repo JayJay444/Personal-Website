@@ -42,7 +42,7 @@ h1 {
   font-weight: bold;
 }
 
-/* Sections*/
+/* Sections */
 .section-half {
   height: 400px;
   padding: 50px;
@@ -59,23 +59,28 @@ h1 {
   color: var(--dark);
 }
 
+/* About */
 .personal-img {
   border-radius: 50%;
 }
-.github-link{
+
+.github-link {
   font-weight: 500;
   color: var(--dark);
   text-decoration: none;
 }
+
 .github-link:hover {
   font-weight: bold;
 }
 
+/* Technologies */
 .list-techno {
   list-style-type: none;
   padding: 0;
 }
 
+/* Contact */
 .contact-me {
   padding-top: 131px;
 }
@@ -84,18 +89,30 @@ h1 {
   margin: 0 0 10px 0;
 }
 
-.preview-img {
+/* Projects */
+.project-div {
   height: 80px;
+}
+
+.preview-img {
+  float: left;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.project-info {
+  /* display: inline-block; */
 }
 
 .project-link {
   color: var(--dark);
   text-decoration: none;
+  font-weight: 500;
 }
+
 .project-link:hover {
   font-weight: bold;
 }
-
 
 /* Media queries*/
 @media (min-width: 800px) {
